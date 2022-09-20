@@ -76,4 +76,4 @@ app.delete("/users/:id",(req,res)=>{
 
 
 
-app.listen(3001)//keeps the server running localhost:3001
+app.listen(process.env.PORT||3001)//keeps the server running localhost:3001
