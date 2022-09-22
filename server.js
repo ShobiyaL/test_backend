@@ -6,8 +6,8 @@ const app =express(); //creates an express application.
 const mongodb = require('mongodb');
 const mongoClient = mongodb.MongoClient;
 //api hit from nodejs to mongodb
-const URL =("mongodb://localhost:27017");
-const DB = "pract_mgdb_node";
+const URL =("mongodb+srv://new-user-10:MF123@cluster0.n9tynri.mongodb.net/?retryWrites=true&w=majority");
+const DB = "pract";
 let users=[];
 //Middleware
 app.use(express.json());
